@@ -1,0 +1,133 @@
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+/* Rules to be applied to entire page */
+a:link, a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+a:hover, a:focus {
+	color: #0000EE;
+}
+body {
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+.container-fluid {
+	background-image: url('img/ricepaper_v3.png');
+	margin-bottom: 0;
+	margin-top: 0;
+	opacity: 0.9;
+}
+h1,h2,h3 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight: 300;
+}
+h1 {
+	font-size: 300%;
+	margin: 0;
+}
+h2, h3 {
+	color: #505050;
+}
+h2 {
+	font-size: 150%;
+}
+h3 {
+	font-size: 125%;
+}
+
+/* Header specific */
+header {
+	color: #FFFFFF;
+	background-color: #FA5A0F;
+	border-bottom: solid 5px #EA4A00;
+	padding: 1em;
+	position: relative;
+}
+header p {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 1em;
+}
+.navLinks {
+	color: #55E;
+}
+.navLinks:hover, .nalLinks:focus {
+	color: #00E;
+}
+#tagline {
+	display: none;
+}
+
+/* Info section */
+#info {
+	padding: 1em;
+}
+
+/* Menu section */
+#menu {
+	padding: 1em;
+	background-color: rgba(207,205,140,0.5);
+
+}
+.pizza-name {
+	font-weight: 400;
+}
+.description {
+	font-size: 80%;
+	font-style: italic;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/* About section */
+#about {
+	padding: 1em;
+}
+
+/* Footer */
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: solid 5px #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
+
+/* For large and medium screens */
+@media screen and (min-width: 992px) {
+	body {
+		background-attachment: fixed;
+		background-image: url('img/background.jpg');
+		background-size: cover;
+		font-size: 18px;
+	}
+	.container-fluid {
+		margin-bottom: 20px;
+		margin-left: 30%;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+	nav {
+		position: absolute;
+		right: 10px; 
+		top: 10px;
+	}
+	#tagline {
+		display: initial;
+	}
+}
+
+
