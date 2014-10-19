@@ -64,7 +64,7 @@ nav li {
 .navLinks {
 	color: #55E;
 }
-.navLinks:hover, .nalLinks:focus {
+.navLinks:hover, .navLinks:focus {
 	color: #00E;
 }
 #tagline {
